@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/checkout@v7
         with:
-          repository: israelmarques1024-dotcom/karnel-termux
+          repository: karnel-termuxOFC/karnel-termux
           ref: 993646aa095b290adc04835c38c98a56ff05c212 # v4.17.44
           path: .ci/karnel-termux
           fetch-depth: 1

@@ -68,8 +68,8 @@ const stats = [
 const installOptions = [
   {
     name: "verified release",
-    code: `curl -fLO https://github.com/israelmarques1024-dotcom/karnel-termux/releases/download/v4.17.44/karnel-termux-install.sh
-curl -fLO https://github.com/israelmarques1024-dotcom/karnel-termux/releases/download/v4.17.44/karnel-termux-install.sh.sha256
+    code: `curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.17.44/karnel-termux-install.sh
+curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.17.44/karnel-termux-install.sh.sha256
 sha256sum -c karnel-termux-install.sh.sha256
 bash karnel-termux-install.sh --ref v4.17.44 --commit 993646aa095b290adc04835c38c98a56ff05c212`,
   },
@@ -553,7 +553,7 @@ export default function Home() {
           <AnimatedSection delay={500}>
             <div className="text-center mt-12">
               <a
-                href="https://github.com/israelmarques1024-dotcom/karnel-termux"
+                href="https://github.com/karnel-termuxOFC/karnel-termux"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="star-btn inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-sm sm:text-base"
@@ -643,7 +643,7 @@ export default function Home() {
                 />
               </Link>
               <a
-                href="https://github.com/israelmarques1024-dotcom/karnel-termux"
+                href="https://github.com/karnel-termuxOFC/karnel-termux"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 rounded-xl border border-border bg-card/50 px-7 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-accent/30 hover:bg-accent/5 hover:scale-105 active:scale-95"

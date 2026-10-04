@@ -559,7 +559,7 @@ karnel doctor code --fix /path/to/project`}
               </a>
               <a
                 className="text-accent hover:underline"
-                href="https://github.com/israelmarques1024-dotcom/karnel-termux/releases"
+                href="https://github.com/karnel-termuxOFC/karnel-termux/releases"
                 target="_blank"
                 rel="noreferrer"
               >

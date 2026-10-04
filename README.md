@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/israelmarques1024-dotcom/karnel-termux/main/assets/images/karnel-logo.png" alt="Karnel Termux Logo" width="400">
+  <img src="https://raw.githubusercontent.com/karnel-termuxOFC/karnel-termux/main/assets/images/karnel-logo.png" alt="Karnel Termux Logo" width="400">
 </p>
 
 <p align="center">
@@ -10,10 +10,10 @@
   <a href="https://karneltermux.vercel.app">
     <img src="https://img.shields.io/badge/Site-karneltermux.vercel.app-0078D4?style=for-the-badge" alt="Site">
   </a>
-  <a href="https://github.com/israelmarques1024-dotcom/karnel-termux">
+  <a href="https://github.com/karnel-termuxOFC/karnel-termux">
     <img src="https://img.shields.io/badge/CLI%20Repo-karnel--termux-0078D4?style=for-the-badge" alt="CLI">
   </a>
-  <a href="https://github.com/israelmarques1024-dotcom/karnel-termux-site">
+  <a href="https://github.com/karnel-termuxOFC/karnel-termux-site">
     <img src="https://img.shields.io/badge/license-MIT-0078D4?style=for-the-badge" alt="License">
   </a>
 </p>
@@ -203,7 +203,7 @@ MIT © Israel Marques
   <a href="https://karneltermux.vercel.app">
     <img src="https://img.shields.io/badge/Visit%20Site-0078D4?style=for-the-badge" alt="Site">
   </a>
-  <a href="https://github.com/israelmarques1024-dotcom/karnel-termux">
+  <a href="https://github.com/karnel-termuxOFC/karnel-termux">
     <img src="https://img.shields.io/badge/Karnel%20Termux-181717?style=for-the-badge&logo=github" alt="CLI">
   </a>
 

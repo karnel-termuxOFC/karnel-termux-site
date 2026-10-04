@@ -274,7 +274,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <p>
             Karnel Termux — Built by{" "}
             <a
-              href="https://github.com/israelmarques1024-dotcom"
+              href="https://github.com/karnel-termuxOFC"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:underline font-semibold"
@@ -301,7 +301,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </a>
             {" · "}
             <a
-              href="https://github.com/israelmarques1024-dotcom/karnel-termux"
+              href="https://github.com/karnel-termuxOFC/karnel-termux"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:underline"
@@ -311,7 +311,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {" · "}
 
             <a
-              href="https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/LICENSE"
+              href="https://github.com/karnel-termuxOFC/karnel-termux/blob/main/LICENSE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:underline"
