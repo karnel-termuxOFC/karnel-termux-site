@@ -14,7 +14,9 @@ export default function KarnelStart() {
 
         <AnimatedSection delay={100}>
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
-            <h3 className="font-bold font-mono mb-4">Start code-server (VS Code)</h3>
+            <h3 className="font-bold font-mono mb-4">
+              Start code-server (VS Code)
+            </h3>
             <CodeBlock
               code={`karnel start editor         # Starts on port 8080
 karnel start editor 3000   # Starts on port 3000`}
@@ -22,7 +24,8 @@ karnel start editor 3000   # Starts on port 3000`}
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Launches code-server bound to <code>127.0.0.1:&lt;port&gt;</code>. Default port is 8080. Port must be between 1024-65535.
+              Launches code-server bound to <code>127.0.0.1:&lt;port&gt;</code>.
+              Default port is 8080. Port must be between 1024-65535.
             </p>
           </div>
         </AnimatedSection>
@@ -36,7 +39,8 @@ karnel start editor 3000   # Starts on port 3000`}
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Launches the Robin OSINT tool with Tor on <code>127.0.0.1:8501</code>.
+              Launches the Robin OSINT tool with Tor on{" "}
+              <code>127.0.0.1:8501</code>.
             </p>
           </div>
         </AnimatedSection>

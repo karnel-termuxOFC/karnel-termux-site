@@ -370,9 +370,7 @@ export default function CodeEditor() {
                   <tr className="border-b border-border bg-secondary/30">
                     <th className="text-left py-3 px-4 font-mono">Language</th>
                     <th className="text-left py-3 px-4 font-mono">LSP</th>
-                    <th className="text-left py-3 px-4 font-mono">
-                      Formatter
-                    </th>
+                    <th className="text-left py-3 px-4 font-mono">Formatter</th>
                     <th className="text-left py-3 px-4 font-mono">Features</th>
                   </tr>
                 </thead>
@@ -457,9 +455,7 @@ export default function CodeEditor() {
                 <thead>
                   <tr className="border-b border-border bg-secondary/30">
                     <th className="text-left py-3 px-4 font-mono">Path</th>
-                    <th className="text-left py-3 px-4 font-mono">
-                      Purpose
-                    </th>
+                    <th className="text-left py-3 px-4 font-mono">Purpose</th>
                   </tr>
                 </thead>
                 <tbody>

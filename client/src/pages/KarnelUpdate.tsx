@@ -21,7 +21,8 @@ export default function KarnelUpdate() {
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Tries multiple methods in order: official curl installer (with SHA256 verification), git pull, npm update, npm install, and pnpm.
+              Tries multiple methods in order: official curl installer (with
+              SHA256 verification), git pull, npm update, npm install, and pnpm.
             </p>
           </div>
         </AnimatedSection>
@@ -53,7 +54,8 @@ karnel update security --nmap --hydra`}
               language="bash"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Pass <code>--&lt;tool-name&gt;</code> flags to update specific tools within a module.
+              Pass <code>--&lt;tool-name&gt;</code> flags to update specific
+              tools within a module.
             </p>
           </div>
         </AnimatedSection>

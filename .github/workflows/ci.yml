@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: israelmarques1024-dotcom/karnel-termux
-          ref: ef4116e544713bea8b0551b4c62eeecb8dd13e0e # v4.17.35
+          ref: 993646aa095b290adc04835c38c98a56ff05c212 # v4.17.44
           path: .ci/karnel-termux
           fetch-depth: 1
       - uses: pnpm/action-setup@v6

@@ -8,20 +8,24 @@ export default function KarnelSearch() {
         <AnimatedSection>
           <h1 className="text-4xl font-bold font-mono mb-4">Search</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Unified keyword search across all Karnel tools and Brain memory files.
+            Unified keyword search across all Karnel tools and Brain memory
+            files.
           </p>
         </AnimatedSection>
 
         <AnimatedSection delay={100}>
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
-            <h3 className="font-bold font-mono mb-4">Search tools and memory</h3>
+            <h3 className="font-bold font-mono mb-4">
+              Search tools and memory
+            </h3>
             <CodeBlock
               code="karnel search <query>"
               language="bash"
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Searches tool IDs, tool names, and the content of Brain memory files. Results from both sources are displayed together.
+              Searches tool IDs, tool names, and the content of Brain memory
+              files. Results from both sources are displayed together.
             </p>
           </div>
         </AnimatedSection>
@@ -42,7 +46,9 @@ karnel search nmap          # Find Nmap in tools and brain`}
           <div className="card-hover bg-card border border-border rounded-lg p-6">
             <h3 className="font-bold font-mono mb-2">How it works</h3>
             <p className="text-muted-foreground">
-              The search queries two sources in parallel: the tool registry (all installed and available tools) and your Second Brain markdown files. Searches are case-insensitive and match partial strings.
+              The search queries two sources in parallel: the tool registry (all
+              installed and available tools) and your Second Brain markdown
+              files. Searches are case-insensitive and match partial strings.
             </p>
           </div>
         </AnimatedSection>

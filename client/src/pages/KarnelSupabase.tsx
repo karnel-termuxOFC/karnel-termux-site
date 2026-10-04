@@ -8,34 +8,41 @@ export default function KarnelSupabase() {
         <AnimatedSection>
           <h1 className="text-4xl font-bold font-mono mb-4">Supabase</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Supabase CLI wrapper with Termux-compatible safety checks and convenience commands.
+            Supabase CLI wrapper with Termux-compatible safety checks and
+            convenience commands.
           </p>
         </AnimatedSection>
 
         <AnimatedSection delay={100}>
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
-            <h3 className="font-bold font-mono mb-4">Environment diagnostics</h3>
+            <h3 className="font-bold font-mono mb-4">
+              Environment diagnostics
+            </h3>
             <CodeBlock
               code="karnel supabase doctor"
               language="bash"
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Checks CLI installation, project config, Docker availability, network reachability, and project linkage.
+              Checks CLI installation, project config, Docker availability,
+              network reachability, and project linkage.
             </p>
           </div>
         </AnimatedSection>
 
         <AnimatedSection delay={150}>
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
-            <h3 className="font-bold font-mono mb-4">Generate TypeScript types</h3>
+            <h3 className="font-bold font-mono mb-4">
+              Generate TypeScript types
+            </h3>
             <CodeBlock
               code="karnel supabase types"
               language="bash"
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Generates TypeScript types from the linked remote Supabase database.
+              Generates TypeScript types from the linked remote Supabase
+              database.
             </p>
           </div>
         </AnimatedSection>

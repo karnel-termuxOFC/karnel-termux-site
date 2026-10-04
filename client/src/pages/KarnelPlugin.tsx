@@ -54,14 +54,18 @@ karnel plugin enable my-plugin    # Re-enable a disabled plugin`}
               language="bash"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Disabled plugins are skipped during command dispatch but remain installed. Use <code>karnel plugin list</code> to see [disabled] tags.
+              Disabled plugins are skipped during command dispatch but remain
+              installed. Use <code>karnel plugin list</code> to see [disabled]
+              tags.
             </p>
           </div>
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
-            <h3 className="font-bold font-mono mb-4">Per-plugin configuration</h3>
+            <h3 className="font-bold font-mono mb-4">
+              Per-plugin configuration
+            </h3>
             <CodeBlock
               code={`karnel plugin config my-plugin                    # Show all config
 karnel plugin config my-plugin greeting           # Get a value
@@ -70,7 +74,8 @@ karnel plugin config my-plugin --delete greeting  # Delete a key`}
               language="bash"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Each plugin has its own config namespace stored in <code>.karnel-install.json</code>.
+              Each plugin has its own config namespace stored in{" "}
+              <code>.karnel-install.json</code>.
             </p>
           </div>
         </AnimatedSection>
@@ -113,7 +118,7 @@ karnel plugin config my-plugin --delete greeting  # Delete a key`}
   "version": "1.0.0",
   "description": "My awesome plugin",
   "commands": ["hello"],
-  "minKarnelVersion": "4.15.2",
+  "minKarnelVersion": "4.17.44",
   "license": "MIT",
   "capabilities": []
 }`}

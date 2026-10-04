@@ -57,8 +57,8 @@ export default function Termux() {
           <h1 className="text-4xl font-bold font-mono mb-4">Termux</h1>
           <p className="text-lg text-muted-foreground mb-8">
             Termux is a Linux terminal emulator for Android that provides a
-            secure and lightweight environment to run command-line programs.
-            It transforms your Android device into a powerful development
+            secure and lightweight environment to run command-line programs. It
+            transforms your Android device into a powerful development
             workstation.
           </p>
         </AnimatedSection>

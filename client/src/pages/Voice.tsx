@@ -52,9 +52,9 @@ export default function Voice() {
             karnel voice — Speech-to-Agent
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Capture audio from the microphone, review in your configured editor, copy
-            to clipboard, and fire any AI agent with the transcribed prompt.
-            All in one command.
+            Capture audio from the microphone, review in your configured editor,
+            copy to clipboard, and fire any AI agent with the transcribed
+            prompt. All in one command.
           </p>
         </AnimatedSection>
 
@@ -74,9 +74,7 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
-          <h2 className="text-2xl font-bold font-mono mb-6">
-            Workflow
-          </h2>
+          <h2 className="text-2xl font-bold font-mono mb-6">Workflow</h2>
         </AnimatedSection>
 
         <div className="space-y-4 mb-12">
@@ -229,8 +227,8 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
               </li>
               <li className="flex gap-2">
                 <span className="text-accent">•</span>{" "}
-                <strong>Microphone:</strong> allow in Android Settings &gt;
-                Apps &gt; Termux &gt; Permissions
+                <strong>Microphone:</strong> allow in Android Settings &gt; Apps
+                &gt; Termux &gt; Permissions
               </li>
               <li className="flex gap-2">
                 <span className="text-accent">•</span>{" "}
@@ -249,15 +247,18 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
                 <h3 className="font-bold font-mono text-foreground mb-1">
                   "No speech detected"
                 </h3>
-                <p>Microphone permission not granted or Termux:API app not installed.</p>
+                <p>
+                  Microphone permission not granted or Termux:API app not
+                  installed.
+                </p>
               </div>
               <div>
                 <h3 className="font-bold font-mono text-foreground mb-1">
                   Captures in English even when speaking Portuguese
                 </h3>
                 <p>
-                  Use <code className="text-accent">--lang pt-BR</code> to
-                  force the language.
+                  Use <code className="text-accent">--lang pt-BR</code> to force
+                  the language.
                 </p>
               </div>
               <div>
@@ -265,8 +266,8 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
                   Editor doesn't open
                 </h3>
                 <p>
-                  Use <code className="text-accent">--raw</code> to
-                  skip editing when there's no TTY.
+                  Use <code className="text-accent">--raw</code> to skip editing
+                  when there's no TTY.
                 </p>
               </div>
               <div>
@@ -279,9 +280,7 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
                     <code className="text-accent">termux-dialog speech</code> →{" "}
                     <code className="text-accent">termux-speech-to-text</code>
                   </li>
-                  <li>
-                    Fixed: kilo agent missing from dispatch
-                  </li>
+                  <li>Fixed: kilo agent missing from dispatch</li>
                   <li>
                     Fixed: boolean logic{" "}
                     <code className="text-accent">is_text</code> with string
@@ -291,8 +290,7 @@ karnel voice claude-code --lang pt-BR  # Speak in English -> claude`}
                     removed (UUOC)
                   </li>
                   <li>
-                    Added: options{" "}
-                    <code className="text-accent">--lang</code>,{" "}
+                    Added: options <code className="text-accent">--lang</code>,{" "}
                     <code className="text-accent">--raw</code>,{" "}
                     <code className="text-accent">--no-clip</code>
                   </li>

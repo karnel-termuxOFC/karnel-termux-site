@@ -6,9 +6,12 @@ export default function KarnelIa() {
     <section className="py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <AnimatedSection>
-          <h1 className="text-4xl font-bold font-mono mb-4">IA (AI Agent Manager)</h1>
+          <h1 className="text-4xl font-bold font-mono mb-4">
+            IA (AI Agent Manager)
+          </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Centralized hub for managing all AI agent sessions across the Karnel ecosystem.
+            Centralized hub for managing all AI agent sessions across the Karnel
+            ecosystem.
           </p>
         </AnimatedSection>
 
@@ -21,7 +24,9 @@ export default function KarnelIa() {
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Lists all conversation sessions from every installed AI tool (OpenCode, Claude, Gemini, Ollama, Codex, Hermes, Kimi, and 20+ more).
+              Lists all conversation sessions from every installed AI tool
+              (OpenCode, Claude, Gemini, Ollama, Codex, Hermes, Kimi, and 20+
+              more).
             </p>
           </div>
         </AnimatedSection>
@@ -35,7 +40,8 @@ export default function KarnelIa() {
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Installs a specific AI tool by delegating to <code>karnel install ai --&lt;tool&gt;</code>.
+              Installs a specific AI tool by delegating to{" "}
+              <code>karnel install ai --&lt;tool&gt;</code>.
             </p>
           </div>
         </AnimatedSection>
@@ -49,7 +55,8 @@ export default function KarnelIa() {
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Displays a table of all known AI CLI binaries, their install path, and whether they are installed or missing.
+              Displays a table of all known AI CLI binaries, their install path,
+              and whether they are installed or missing.
             </p>
           </div>
         </AnimatedSection>

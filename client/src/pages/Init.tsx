@@ -23,8 +23,8 @@ export default function Init() {
             karnel init — Project Initialization
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Configure existing projects with dependencies, folder structure,
-            and predefined tools. Start coding in seconds.
+            Configure existing projects with dependencies, folder structure, and
+            predefined tools. Start coding in seconds.
           </p>
         </AnimatedSection>
 

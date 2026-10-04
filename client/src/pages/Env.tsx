@@ -10,8 +10,8 @@ export default function Env() {
             karnel env — Environment Variable Manager
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Manage API keys and environment variables securely.
-            Never hardcode secrets in your projects again.
+            Manage API keys and environment variables securely. Never hardcode
+            secrets in your projects again.
           </p>
         </AnimatedSection>
 

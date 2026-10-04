@@ -39,51 +39,51 @@ Created by **Israel Marques**.
 
 ## Pages
 
-| Page            | Route              | Description                                                   |
-| --------------- | ------------------ | ------------------------------------------------------------- |
-| Home            | `/`                | Landing page with installation and feature overview           |
-| Termux          | `/termux`          | Termux-specific tools                                         |
-| Termux API      | `/termux/api`      | Termux:API integration                                        |
-| Karnel Docs     | `/karnel`          | CLI command and module documentation                          |
-| AI Tools        | `/karnel/ai`       | AI agents, gateways, and developer utilities                  |
-| Karnel OSINT    | `/karnel/osint`    | Robin, Tor, privacy model, and lifecycle                      |
-| Code Editor     | `/karnel/editor`   | code-server (VS Code in browser)                              |
-| Deploy          | `/karnel/deploy`   | Deployment guides for Vercel, Railway, and Netlify            |
-| Supabase        | `/karnel/supabase` | Supabase CLI compatibility guidance for Android/Termux        |
-| Doctor          | `/karnel/doctor`   | Termux diagnostics and project code analysis                  |
-| Show Docs       | `/karnel/show`     | Tool documentation viewer                                     |
-| Linux           | `/karnel/linux`    | Linux-specific tools                                          |
-| Brain           | `/karnel/brain`    | Second brain memory system docs                               |
-| Voice           | `/karnel/voice`    | Voice command agent                                           |
-| PG              | `/karnel/pg`       | PostgreSQL manager                                            |
-| Init            | `/karnel/init`     | Project templates                                             |
-| Env             | `/karnel/env`      | Environment variable management                               |
-| Karnel Lang     | `/karnel/lang`     | Languages (Node.js, Python, Go, Rust, C/C++, PHP, Perl)       |
-| Karnel DB       | `/karnel/db`       | Database module (PostgreSQL, MariaDB, SQLite, MongoDB, Redis) |
-| Karnel Dev      | `/karnel/dev`      | Development tools                                             |
-| Karnel Npm      | `/karnel/npm`      | Global npm packages                                           |
-| Karnel Shell    | `/karnel/shell`    | ZSH + Oh My Zsh                                               |
-| Karnel UI       | `/karnel/ui`       | Font, cursor, extra-keys, and banner                          |
-| Karnel Auto     | `/karnel/auto`     | n8n automation                                                |
-| Karnel Games    | `/karnel/games`    | Terminal games                                                |
-| Karnel Network  | `/karnel/network`  | Network tools                                                 |
-| Karnel Utils    | `/karnel/utils`    | Utility scripts                                               |
-| Karnel Cleanup  | `/karnel/cleanup`  | Cache, log, and temporary-file cleanup                        |
-| Karnel Backup   | `/karnel/backup`   | Archive and restore scope, including limitations              |
-| Karnel Plugin   | `/karnel/plugin`   | Plugin manager (enable/disable/config) and development guide  |
-| Karnel Security | `/karnel/security` | Security tools                                                |
-| IA (AI Manager) | `/karnel/ia`       | AI agent sessions, install tools, show launchers              |
-| Search          | `/karnel/search`   | Unified search across tools and Brain memories                |
-| Status          | `/karnel/status`   | System health dashboard (disk, RAM, services)                 |
-| Stats           | `/karnel/stats`    | System overview: versions, modules, disk, tool counts        |
-| Update          | `/karnel/update`   | Update modules or the framework                               |
-| Upgrade         | `/karnel/upgrade`  | Full framework upgrade with cleanup                           |
-| List            | `/karnel/list`     | List tools by category with install status                    |
-| Start           | `/karnel/start`    | Start services (code-server, Robin)                           |
-| Supabase CLI    | `/karnel/supabase-cmd` | Supabase CLI wrapper with Termux safety checks            |
-| Changelog       | `/karnel/changelog` | Release history and version notes                           |
-| Terms           | `/terms`           | Terms of service                                              |
-| Not Found       | `/404`             | Explicit not-found page                                       |
+| Page            | Route                  | Description                                                   |
+| --------------- | ---------------------- | ------------------------------------------------------------- |
+| Home            | `/`                    | Landing page with installation and feature overview           |
+| Termux          | `/termux`              | Termux-specific tools                                         |
+| Termux API      | `/termux/api`          | Termux:API integration                                        |
+| Karnel Docs     | `/karnel`              | CLI command and module documentation                          |
+| AI Tools        | `/karnel/ai`           | AI agents, gateways, and developer utilities                  |
+| Karnel OSINT    | `/karnel/osint`        | Robin, Tor, privacy model, and lifecycle                      |
+| Code Editor     | `/karnel/editor`       | code-server (VS Code in browser)                              |
+| Deploy          | `/karnel/deploy`       | Deployment guides for Vercel, Railway, and Netlify            |
+| Supabase        | `/karnel/supabase`     | Supabase CLI compatibility guidance for Android/Termux        |
+| Doctor          | `/karnel/doctor`       | Termux diagnostics and project code analysis                  |
+| Show Docs       | `/karnel/show`         | Tool documentation viewer                                     |
+| Linux           | `/karnel/linux`        | Linux-specific tools                                          |
+| Brain           | `/karnel/brain`        | Second brain memory system docs                               |
+| Voice           | `/karnel/voice`        | Voice command agent                                           |
+| PG              | `/karnel/pg`           | PostgreSQL manager                                            |
+| Init            | `/karnel/init`         | Project templates                                             |
+| Env             | `/karnel/env`          | Environment variable management                               |
+| Karnel Lang     | `/karnel/lang`         | Languages (Node.js, Python, Go, Rust, C/C++, PHP, Perl)       |
+| Karnel DB       | `/karnel/db`           | Database module (PostgreSQL, MariaDB, SQLite, MongoDB, Redis) |
+| Karnel Dev      | `/karnel/dev`          | Development tools                                             |
+| Karnel Npm      | `/karnel/npm`          | Global npm packages                                           |
+| Karnel Shell    | `/karnel/shell`        | ZSH + Oh My Zsh                                               |
+| Karnel UI       | `/karnel/ui`           | Font, cursor, extra-keys, and banner                          |
+| Karnel Auto     | `/karnel/auto`         | n8n automation                                                |
+| Karnel Games    | `/karnel/games`        | Terminal games                                                |
+| Karnel Network  | `/karnel/network`      | Network tools                                                 |
+| Karnel Utils    | `/karnel/utils`        | Utility scripts                                               |
+| Karnel Cleanup  | `/karnel/cleanup`      | Cache, log, and temporary-file cleanup                        |
+| Karnel Backup   | `/karnel/backup`       | Archive and restore scope, including limitations              |
+| Karnel Plugin   | `/karnel/plugin`       | Plugin manager (enable/disable/config) and development guide  |
+| Karnel Security | `/karnel/security`     | Security tools                                                |
+| IA (AI Manager) | `/karnel/ia`           | AI agent sessions, install tools, show launchers              |
+| Search          | `/karnel/search`       | Unified search across tools and Brain memories                |
+| Status          | `/karnel/status`       | System health dashboard (disk, RAM, services)                 |
+| Stats           | `/karnel/stats`        | System overview: versions, modules, disk, tool counts         |
+| Update          | `/karnel/update`       | Update modules or the framework                               |
+| Upgrade         | `/karnel/upgrade`      | Full framework upgrade with cleanup                           |
+| List            | `/karnel/list`         | List tools by category with install status                    |
+| Start           | `/karnel/start`        | Start services (code-server, Robin)                           |
+| Supabase CLI    | `/karnel/supabase-cmd` | Supabase CLI wrapper with Termux safety checks                |
+| Changelog       | `/karnel/changelog`    | Release history and version notes                             |
+| Terms           | `/terms`               | Terms of service                                              |
+| Not Found       | `/404`                 | Explicit not-found page                                       |
 
 ---
 

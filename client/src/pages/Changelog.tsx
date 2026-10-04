@@ -3,6 +3,18 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.17.44",
+    date: "2026-10-04",
+    title: "Banner portability + list coverage audit",
+    changes: [
+      "Banner renders identically in bash and zsh (associative colour tables, real version from package.json, valid UTF-8 logo at the exact terminal width)",
+      "karnel list: deploy and voice expose install flags and status, the TUI counts installers live, dialog menus show the whole list",
+      "KeelCode and Supercode CLI capture npm's exit status instead of a dead rc",
+      "New regression tests: list coverage (17 targets, 166 tools) and banner (bash + zsh)",
+      "Removed dead proot templates, orphan assets and stale site version references",
+    ],
+  },
+  {
     version: "4.17.43",
     date: "2026-09-19",
     title: "New stats command + dead code cleanup",
@@ -123,9 +135,7 @@ const releases = [
     version: "4.17.32",
     date: "2026-09-15",
     title: "GitHub release asset digest verification",
-    changes: [
-      "Verify release asset digests via assets[].digest",
-    ],
+    changes: ["Verify release asset digests via assets[].digest"],
   },
   {
     version: "4.17.31",
@@ -140,9 +150,7 @@ const releases = [
     version: "4.17.30",
     date: "2026-09-15",
     title: "10Router Termux shebang repair",
-    changes: [
-      "Repair 10Router Termux shebangs when binary exists",
-    ],
+    changes: ["Repair 10Router Termux shebangs when binary exists"],
   },
 ];
 
@@ -170,7 +178,7 @@ export default function Changelog() {
               </div>
               <p className="text-muted-foreground mb-3">{release.title}</p>
               <ul className="list-disc list-inside space-y-1">
-                {release.changes.map((change) => (
+                {release.changes.map(change => (
                   <li key={change} className="text-sm text-muted-foreground">
                     {change}
                   </li>

@@ -8,7 +8,8 @@ export default function KarnelList() {
         <AnimatedSection>
           <h1 className="text-4xl font-bold font-mono mb-4">List</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            List all available tools and packages in a category with install status.
+            List all available tools and packages in a category with install
+            status.
           </p>
         </AnimatedSection>
 
@@ -21,7 +22,8 @@ export default function KarnelList() {
               title="terminal"
             />
             <p className="text-sm text-muted-foreground mt-2">
-              Shows each item's name, install flag, and whether it is currently installed.
+              Shows each item's name, install flag, and whether it is currently
+              installed.
             </p>
           </div>
         </AnimatedSection>
