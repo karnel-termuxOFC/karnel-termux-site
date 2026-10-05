@@ -3,6 +3,19 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.17.45",
+    date: "2026-10-05",
+    title: "npm runs on real Termux hosts",
+    changes: [
+      "Every npm call goes through karnel_npm(), which runs npm through node when its #!/usr/bin/env node shebang cannot be executed and retries with --force only on EBADPLATFORM",
+      "wpscan and wafw00f read their recorded backend correctly, so update and uninstall no longer fail every time",
+      "KeelCode validates the linux-arm64 release it actually downloads instead of the base package digest",
+      "Cline, Command Code, Copilot Termux and Walkie repair the shebang on the success branch, leaving installed binaries runnable",
+      "Stub detection no longer flags real CLIs (supercode, python-config) as offline placeholders",
+      "The test harness now surfaces intermediate failures, exposing a Turbopack contract that always failed on CI",
+    ],
+  },
+  {
     version: "4.17.44",
     date: "2026-10-04",
     title: "Banner portability + list coverage audit",
