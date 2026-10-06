@@ -178,10 +178,10 @@ export default function KarnelDocs() {
             <h3 className="font-bold font-mono mb-4">Quick Install</h3>
             <div className="space-y-3">
               <CodeBlock
-                code={`curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.17.45/karnel-termux-install.sh
-curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.17.45/karnel-termux-install.sh.sha256
+                code={`curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.0/karnel-termux-install.sh
+curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.0/karnel-termux-install.sh.sha256
 sha256sum -c karnel-termux-install.sh.sha256
-bash karnel-termux-install.sh --ref v4.17.45`}
+bash karnel-termux-install.sh --ref v4.18.0`}
                 language="bash"
                 title="quick install"
               />

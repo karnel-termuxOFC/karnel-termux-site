@@ -3,6 +3,20 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.0",
+    date: "2026-10-06",
+    title: "Three-tier Android compatibility layer",
+    changes: [
+      "compat_adapt wraps, probes and climbs to the cheapest tier that starts the tool: the glibc loader alone, the glibc userland on PATH, or proot over a synthetic FHS root built from the sysroot already installed",
+      "The proot tier downloads nothing, so glibc-only binaries no longer force a full proot-distro install of Ubuntu",
+      "A tier that cannot be reached is refused before the wrapper is written, and every step unwraps back to the parked original",
+      "Shebang repair edits the target of a symlink instead of replacing the link, so fixing npm no longer breaks it again",
+      "npm, npx, kc, kcode, keel, snyk, httptmuxd, gdbus-codegen, glib-genmarshal and glib-mkenums now execute on Android (no /usr/bin/env)",
+      "karnel doctor checks whether each interpreter path exists, fixes through the compatibility layer and reports an Android Compatibility Layer section",
+      "tests/android-compat.sh covers classification, wrapping, re-tiering, escalation, fallback, the FHS root and shebang repair (17 cases)",
+    ],
+  },
+  {
     version: "4.17.45",
     date: "2026-10-05",
     title: "npm runs on real Termux hosts",
