@@ -3,6 +3,17 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.1",
+    date: "2026-10-07",
+    title: "The compat ladder reaches every installer",
+    changes: [
+      "compat_adapt_installed() now escalates, so tiers 3 (glibc userland) and 4 (proot FHS root) are reachable from all 16 categories, not only from freebuff",
+      "Wrappers already on disk are re-probed, so a tool that stops starting at its current tier climbs on the next install or update",
+      "Native binaries, scripts and plain files return before any probe, so the ladder costs nothing for the hundreds of entries a Termux prefix already carries",
+      "Three new test cases, each proven to fail without the fix; 20 cases run in 7 seconds",
+    ],
+  },
+  {
     version: "4.18.0",
     date: "2026-10-06",
     title: "Three-tier Android compatibility layer",

@@ -41,7 +41,7 @@ Tool Counts      Number of tools per module (166 total across 17 modules)`}
           <div className="card-hover bg-card border border-accent/50 rounded-lg p-6 mb-8">
             <h3 className="font-bold font-mono mb-4">Example output</h3>
             <CodeBlock
-              code={`  Version:       v4.18.0
+              code={`  Version:       v4.18.1
   KARNEL_PATH:   ~/.local/share/karnel/karnel
   Shell:         bash
   Node:          v26.4.0
