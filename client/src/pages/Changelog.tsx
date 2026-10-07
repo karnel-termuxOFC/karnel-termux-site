@@ -3,6 +3,17 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.2",
+    date: "2026-10-07",
+    title: "Wrappers that survive a login shell",
+    changes: [
+      'Every wrapper unsets LD_PRELOAD before it execs glibc: login(1) exports the bionic termux-exec shim, which ld.so rejects with "libc.so: invalid ELF header", while tier 3\'s own shim left every bionic child failing with "libc.so.6 not found"',
+      "Wrappers written by older Karnels are detected by compat_wrapper_is_current() and rewritten in place before compat_escalate probes them",
+      "An orphaned .karnel-real left by freebuff's own in-place re-extraction no longer blocks adaptation: identical bytes are dropped and a different copy is parked as .karnel-real.stale",
+      "Four new test cases, each proven to fail without the fix; 23 cases run in 8 seconds",
+    ],
+  },
+  {
     version: "4.18.1",
     date: "2026-10-07",
     title: "The compat ladder reaches every installer",

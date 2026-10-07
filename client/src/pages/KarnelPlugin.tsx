@@ -118,7 +118,7 @@ karnel plugin config my-plugin --delete greeting  # Delete a key`}
   "version": "1.0.0",
   "description": "My awesome plugin",
   "commands": ["hello"],
-  "minKarnelVersion": "4.18.1",
+  "minKarnelVersion": "4.18.2",
   "license": "MIT",
   "capabilities": []
 }`}

@@ -198,7 +198,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               Support Project
             </button>
             <p className="text-xs text-muted-foreground font-mono">
-              <span className="text-accent">v4.18.1</span> • Android + Termux
+              <span className="text-accent">v4.18.2</span> • Android + Termux
             </p>
             <p className="text-xs text-muted-foreground/60 mt-2">
               Built for developers

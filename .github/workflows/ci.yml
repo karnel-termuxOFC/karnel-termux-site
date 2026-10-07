@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: karnel-termuxOFC/karnel-termux
-          ref: a046270feccbad261fd440a040fb960250c8e699 # v4.18.1
+          ref: fff0d351f344943ef88e0745cc0f7f56c7aaf970 # v4.18.2
           path: .ci/karnel-termux
           fetch-depth: 1
       - uses: pnpm/action-setup@v6
