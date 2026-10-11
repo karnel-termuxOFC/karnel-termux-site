@@ -3,6 +3,17 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.3",
+    date: "2026-10-08",
+    title: "Adaptation for every command that installs",
+    changes: [
+      "The dispatcher brackets install, update, upgrade, reinstall, restore, plugin, supabase, deploy, voice, robin, pg, open and init with a PATH snapshot and adapts exactly the entries that changed, so an installer that never calls the compat layer - or names a command its registry does not mention - still ends up wrapped",
+      "The AI reinstall fallback adapts what it installed too, instead of returning without passing through the adapt call",
+      'freebuff\'s install proves the entry starts before reporting success: a device audit of all 169 catalogued tools found 21 installed and exactly one of them dead while the install claimed "already installed"',
+      "tests/android-compat.sh joins the test run, where it had never been in CI; seven new cases, each proven to fail without the fix, taking the suite to 28",
+    ],
+  },
+  {
     version: "4.18.2",
     date: "2026-10-07",
     title: "Wrappers that survive a login shell",
