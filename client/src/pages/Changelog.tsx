@@ -3,6 +3,17 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.4",
+    date: "2026-10-11",
+    title: "Freebuff repairs itself after it updates itself",
+    changes: [
+      "Freebuff re-downloads its runtime on every update and drops the raw glibc ELF over the adapted copy, so the device went from a working 0.2.22 to a dead 0.2.26 with nothing to repair it until the next install",
+      "The karnel-owned entry now sources the compatibility layer and re-adapts the runtime before handing off to the launcher; a working copy is recognised before any ELF is inspected, so the cost is a few milliseconds per start",
+      "The install-time verification from 4.18.3 reported the broken state as a failure instead of the 'already installed' success it used to print",
+      "One new case in tests/ai-installer-hardening.sh, taking the suite to 12; removing the re-adapt line fails it",
+    ],
+  },
+  {
     version: "4.18.3",
     date: "2026-10-08",
     title: "Adaptation for every command that installs",
