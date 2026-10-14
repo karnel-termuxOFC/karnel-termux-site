@@ -3,7 +3,7 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
-    version: "4.18.6",
+    version: "4.18.7",
     date: "2026-10-11",
     title: "Freebuff repairs itself after it updates itself",
     changes: [
