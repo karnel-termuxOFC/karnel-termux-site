@@ -68,10 +68,10 @@ const stats = [
 const installOptions = [
   {
     name: "verified release",
-    code: `curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.7/karnel-termux-install.sh
-curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.7/karnel-termux-install.sh.sha256
+    code: `curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.8/karnel-termux-install.sh
+curl -fLO https://github.com/karnel-termuxOFC/karnel-termux/releases/download/v4.18.8/karnel-termux-install.sh.sha256
 sha256sum -c karnel-termux-install.sh.sha256
-bash karnel-termux-install.sh --ref v4.18.7 --commit 9ef620e8699bf3feff7ca3217fe03a65a9345a6b`,
+bash karnel-termux-install.sh --ref v4.18.8 --commit f4e47c5eab207cad1c8696cd6bbfd28ac2217835`,
   },
   { name: "npm", code: "npm install -g karnel-termux" },
   { name: "pnpm", code: "pnpm add -g karnel-termux" },

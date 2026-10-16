@@ -3,6 +3,18 @@ import CodeBlock from "@/components/CodeBlock";
 
 const releases = [
   {
+    version: "4.18.8",
+    date: "2026-10-16",
+    title: "Three tools that never reached their session",
+    changes: [
+      "keelcode 0.2.0 rejected the approval URL its own API returns: the device-code endpoint answers https://warm.run/device while the binary's allowlist only admits keelcode.ai, so every login died at 'returned an invalid approval URL'; the allowlist now admits warm.run too, at the same byte length, and a release that fixes it upstream is left alone",
+      "supercode with no arguments painted a welcome screen and then commander's help; the session is 'supercode init' - which that screen itself advertises as 'chat', a command the CLI never registers - so the default action now starts the session",
+      "kiro's login assumes a browser redirect that cannot be answered from Termux, which is what its own --use-device-flow flag exists for; a bare 'kiro login' now defaults to it, and the wrapper no longer reads .install-method before writing it, which used to drop glibc-runner on a fresh install",
+      "All 46 registry entries launched under a real PTY: 45 open, 1 absent by design, 0 failures - up from 38 opening with 2 failing",
+      "amp login is diagnosed rather than patched: the CLI fetches a device code, opens the browser, then holds zero TCP connections while waiting, and loopback binds, BROWSER and AMP_HEADLESS_OAUTH all work here, so the fault sits inside a 133 MB closed-source binary",
+    ],
+  },
+  {
     version: "4.18.7",
     date: "2026-10-11",
     title: "Freebuff repairs itself after it updates itself",
